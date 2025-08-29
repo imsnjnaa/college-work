@@ -7,7 +7,6 @@ int main()
   ch=getchar();
   printf("\n character is:");
   putchar(ch);
-  fflush(stdin);
   printf("\n enter string:");
   gets(name);
   prtinf("\n name is %s", name);
