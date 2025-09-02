@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int multiply(int x,int y){
+int power(int x,int y){
     if (y==1)
     return x;
     else if (x==1)
@@ -10,7 +10,7 @@ int multiply(int x,int y){
     else if (x==0)
     return 0;
     else
-    return x*pow(x,y);
+    return x*pow(x,y-1);
 }
 int main(){
     int n,m,res;
