@@ -9,7 +9,7 @@ int main()
   putchar(ch);
   printf("\n enter string:");
   gets(name);
-  prtinf("\n name is %s", name);
+  printf("\n name is %s", name);
   puts(name);
   return 0;
 }
